@@ -3,7 +3,65 @@ header{
     justify-content: right;
 }
 
-.charecterCards{
+.characterCard{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+    background-color: black;
 }
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    max-height: min-content;
+    max-width: min-content;
+    margin: 10px;
+    
+}
+
+.cardImgTop{
+    display: flex;
+    background-color: aqua;
+    min-width: 150px;
+    max-width:250px;
+    min-height: 100px;
+    max-height: 300px;
+    align-self: center;
+    margin: 5px;
+   
+}
+
+.cardBody{
+    display: flex;
+    flex-flow: wrap column;
+    margin-left: 5px;
+    background-color: rgb(255, 89, 89);
+    font-family: monospace;
+    
+}
+
+.cardTitle{
+    background-color: rgb(141, 30, 245);
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.cardText{
+    background-color: brown;
+    font-family: monospace;
+    display: flex;
+    justify-content: start;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.listGroupItem{
+    background-color: blanchedalmond;
+    font-family: monospace;
+    display: flex;
+    justify-content: start;
+    margin: 10px;
+}
+
+
