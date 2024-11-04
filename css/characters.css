@@ -2,3 +2,8 @@ header{
     display:flex;
     justify-content: right;
 }
+
+.charecterCards{
+    display: flex;
+    justify-content: center;
+}
