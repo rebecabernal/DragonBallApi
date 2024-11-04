@@ -1,6 +1,6 @@
 const requestURL = 'https://dragonball-api.com/api/characters?limit=58';
 
-async function fetchCharactersJson(){
+async function fetchItemsJson(){
     const response = await fetch(requestURL);
     try{
         if (!response.ok) {
@@ -17,7 +17,7 @@ async function fetchCharactersJson(){
 
 function createCharacterCard ({name, gender, ki, maxKI, race, image, affiliation}){
     return `
-        <div class="card" style="width: 550px;">
+        <div class="card" style="width: 200px;">
             <img src="${image}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${name}</h5>
@@ -32,19 +32,19 @@ function createCharacterCard ({name, gender, ki, maxKI, race, image, affiliation
 `;
 }
 
-async function displayCharacters() {
-    const charactersSection = document.getElementById('charactersSection');
-    const charactersData = await fetchCharactersJson();
+async function displayItems() {
+    const itemsSection = document.getElementById('itemsSection');
+    const itemsData = await fetchItemsJson();
 
-    if (charactersData && charactersData.items){
-        const charactersCards = charactersData.items.map(createCharactersCard).join('');
-        charactersSection.innerHTML = charactersCards;
+    if (itemsData && itemsData.items){
+        const characterCards = itemsData.items.map(createCharacterCard).join('');
+        itemsSection.innerHTML = characterCards;
     }
     else
     {
-        charactersSection.innerHTML = `<p>Fail to charge characters Json</p>`;    
+        itemsSection.innerHTML = `<p>Fail to charge characters Json</p>`;    
     }
 }
 
 
-displayCharacters();
+displayItems();
