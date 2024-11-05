@@ -17,13 +17,13 @@ async function fetchCharactersJson(){
 
 function createCharacterCard ({name, gender, ki, maxKi, race, image, affiliation}){
     return `
-        <div class="card">
+        <div class="cards">
             <img src="${image}" class="cardImgTop" alt="Dragon Ball Character">
-            <div class="cardBody">
+            <div class="card-body, cardBody">
                 <h5 class="cardTitle">${name}</h5>
                 <p class="cardText">${race} - ${gender}</p>
             </div>
-            <ul class="list-group list-group-flush">
+            <ul class="listGroup">
                 <li class="listGroupItem"><p>Base Ki: ${ki}</p></li>
                 <li class="listGroupItem"><p>Max Ki: ${maxKi}</p></li>
                 <li class="listGroupItem"><p>Affiliation: ${affiliation}</p></li>

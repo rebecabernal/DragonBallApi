@@ -10,14 +10,13 @@ header{
     margin: 15px;
     background-color: black;
 }
-.card{
+.cards{
     display: flex;
     justify-content: space-evenly;
     background-color: aquamarine;
     max-height: min-content;
     max-width: min-content;
-    margin: 15px;
-    
+    margin: 15px;   
 }
 
 .cardImgTop{
