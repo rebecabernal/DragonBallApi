@@ -1,0 +1,11 @@
+header{
+    display:flex;
+    flex-flow: wrap left;
+    justify-content: center;
+
+}
+
+.links{
+    display: flex;
+    flex-flow: wrap column;
+}
