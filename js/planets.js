@@ -1,49 +1,44 @@
 const requestURL = 'https://dragonball-api.com/api/planets?limit=20';
 
-async function fetchCarsJson(){
+async function fetchPlanetJson(){
     const response = await fetch(requestURL);
     try{
         if (!response.ok) {
-            throw new Error(`Error en la petición al Json ${response.status}`);
+            throw new Error(`Fail to request Json ${response.status}`);
         }
         return await response.json();
     }
     catch (error){
-        console.error('Error al obetener los coches de la Api : ', error);
+        console.error('Fail to obtain the planets in Api : ', error);
         return null;
     }
    
 }
 
-function createCarsCard ({id, brand, image, price, year, description}){
+function createPlanetsCard ({name, image, description}){
     return `
-        <div class="card" style="width: 550px;">
-            <img src="${image}" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">${id} - ${brand}</h5>
-                <p class="card-text">${description}</p>
+        <div class="card">
+            <img src="${image}" class="cardImgTop" alt="...">
+            <div class="cardBody">
+                <h5 class="cardTitle">${name}</h5>
+                <p class="cardText">${description}</p>
             </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">${year}</li>
-                <li class="list-group-item">${price}</li>
-            </ul>
-        </div>
 `;
 }
 
-async function displayCars() {
-    const carSection = document.getElementById('carSection');
-    const carsData = await fetchCarsJson();
+async function displayPlanets() {
+    const planetSection = document.getElementById('planetSection');
+    const planetsData = await fetchPlanetJson();
 
-    if (carsData && carsData.cars){
-        const carCards = carsData.cars.map(createCarsCard).join('');
-        carSection.innerHTML = carCards;
+    if (planetsData && planetsData.items){
+        const planetCards = planetsData.items.map(createPlanetsCard).join('');
+        planetSection.innerHTML = planetCards;
     }
     else
     {
-        carSection.innerHTML = `<p>No se ha podido cargar el Json de los coches</p>`;    
+        planetSection.innerHTML = `<p>Fail to charge planets Json</p>`;    
     }
 }
 
 
-displayCars();
+displayPlanets();
