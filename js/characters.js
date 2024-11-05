@@ -19,15 +19,15 @@ function createCharacterCard ({name, gender, ki, maxKi, race, image, affiliation
     return `
         <div class="cards">
             <img src="${image}" class="cardImgTop" alt="Dragon Ball Character">
-            <div class="card-body, cardBody">
-                <h5 class="cardTitle">${name}</h5>
+            <div class="cardBody">
+                <p class="cardName">${name}</p>
                 <p class="cardText">${race} - ${gender}</p>
             </div>
-            <ul class="listGroup">
-                <li class="listGroupInfo"><p>Base Ki: ${ki}</p></li>
-                <li class="listGroupInfo"><p>Max Ki: ${maxKi}</p></li>
-                <li class="listGroupInfo"><p>Affiliation: ${affiliation}</p></li>
-            </ul>
+            <div class="listGroup">
+                <p class="listInfo">Base Ki: ${ki}</p>
+                <p class="listInfo">Max Ki: ${maxKi}</p>
+                <p class="listInfo">Affiliation: ${affiliation}</p>
+            </div>
         </div>
 `;
 }
