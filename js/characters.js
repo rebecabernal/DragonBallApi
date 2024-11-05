@@ -1,6 +1,6 @@
 const requestURL = 'https://dragonball-api.com/api/characters?limit=58';
 
-async function fetchItemsJson(){
+async function fetchCharactersJson(){
     const response = await fetch(requestURL);
     try{
         if (!response.ok) {
@@ -32,19 +32,19 @@ function createCharacterCard ({name, gender, ki, maxKi, race, image, affiliation
 `;
 }
 
-async function displayItems() {
-    const itemsSection = document.getElementById('itemsSection');
-    const itemsData = await fetchItemsJson();
+async function displayCharacters() {
+    const charactersSection = document.getElementById('charactersSection');
+    const charactersData = await fetchCharactersJson();
 
-    if (itemsData && itemsData.items){
-        const characterCards = itemsData.items.map(createCharacterCard).join('');
-        itemsSection.innerHTML = characterCards;
+    if (charactersData && charactersData.items){
+        const characterCards = charactersData.items.map(createCharacterCard).join('');
+        charactersSection.innerHTML = characterCards;
     }
     else
     {
-        itemsSection.innerHTML = `<p>Fail to charge characters Json</p>`;    
+        charactersSection.innerHTML = `<p>Fail to charge characters Json</p>`;    
     }
 }
 
 
-displayItems();
+displayCharacters();
