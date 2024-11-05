@@ -1,8 +1,15 @@
+body{
+    background-image: url(./img/kameHouse.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+
 header{
     display:flex;
     flex-flow: wrap left;
     justify-content: center;
-
 }
 
 .links{
