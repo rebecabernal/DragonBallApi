@@ -24,9 +24,9 @@ function createCharacterCard ({name, gender, ki, maxKi, race, image, affiliation
                 <p class="cardText">${race} - ${gender}</p>
             </div>
             <ul class="listGroup">
-                <li class="listGroupItem"><p>Base Ki: ${ki}</p></li>
-                <li class="listGroupItem"><p>Max Ki: ${maxKi}</p></li>
-                <li class="listGroupItem"><p>Affiliation: ${affiliation}</p></li>
+                <li class="listGroupInfo"><p>Base Ki: ${ki}</p></li>
+                <li class="listGroupInfo"><p>Max Ki: ${maxKi}</p></li>
+                <li class="listGroupInfo"><p>Affiliation: ${affiliation}</p></li>
             </ul>
         </div>
 `;

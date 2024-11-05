@@ -4,14 +4,15 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 15px;
-    background-color: black;
+    background-color: rgb(255, 165, 247);
+    border-radius: 20px;
 }
 .cards{
     display: flex;
+    flex-flow: wrap column;
     justify-content: space-evenly;
     background-color: aquamarine;
-    max-height: min-content;
-    max-width: min-content;
+    border-radius: 20px;
     margin: 15px;   
 }
 
@@ -52,12 +53,13 @@
     margin-right: 5px;
 }
 
-.listGroupItem{
+.listGroupInfo{
     background-color: blanchedalmond;
     font-family: monospace;
     display: flex;
-    justify-content: start;
-    margin: 10px;
+    flex-flow: wrap column;
+    align-items: start;
+
 }
 
 
