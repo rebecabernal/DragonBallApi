@@ -1,16 +1,31 @@
 body{
     background-image: url(./img/kameHouse.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
+    background-blend-mode:lighten;
+    padding: 0px;
+    margin: 0px;
 }
-
 
 header{
     display:flex;
     flex-flow: wrap left;
     justify-content: center;
+    background-color: rgba(255, 3, 129, 0.542);
+    position: sticky; top: 0;
+    padding: 0px;
+    margin: 0px;
 }
+
+main{
+    background-image: url(./img/kameHouse.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+}
+
 
 .links{
     display: flex;

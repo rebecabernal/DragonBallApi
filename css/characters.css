@@ -4,8 +4,9 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px;
-    background-color: rgba(255, 165, 247, 0.399);
-    border-radius: 20px;
+    background-color: rgba(117, 18, 108, 0.399);
+    padding: 0px;
+    margin: 0px;
 }
 
 .cards{
