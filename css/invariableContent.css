@@ -11,10 +11,12 @@ header{
     display: flex;
     flex-flow: wrap column-reverse;
     justify-content: left;
-    background-color: rgb(204, 59, 129);
+    height: 60px;
+    background-color: rgba(0, 3, 92, 0.732);
     position: sticky; top: 0;
     padding: 0px;
     margin: 0px;
+    
 }
 
 main{
@@ -30,18 +32,39 @@ main{
 .links{
     display: flex;
     flex-flow:row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-.indexLink{
-}
-.charactersLink{
-}
-.planets{
+.link{
+    display: flex;
+    font-style: oblique;
+    font-family: monospace;
+    font-weight: 900;
+    background-image: url(./img/pixelSkyBanner.png);
+    min-width: 250px;
+    max-width: 500px;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    border-radius: 15px;
+
+    a:link, a:visited {
+        text-decoration: double;
+        color: rgb(182, 207, 252);
+        }
+    a:hover {
+        text-decoration: dashed;
+        color:rgb(255, 132, 0);
+        }
+    a:active {
+        text-decoration: double;
+        color: rgb(255, 177, 94);
+    }
+    
 }
 
 footer{
-
     padding: 0px;
     margin: 0px;
+    max-width: min-content;
 }
