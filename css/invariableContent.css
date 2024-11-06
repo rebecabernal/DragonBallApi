@@ -8,10 +8,10 @@ body{
 }
 
 header{
-    display:flex;
-    flex-flow: wrap left;
-    justify-content: center;
-    background-color: rgba(255, 3, 129, 0.542);
+    display: flex;
+    flex-flow: wrap column-reverse;
+    justify-content: left;
+    background-color: rgb(204, 59, 129);
     position: sticky; top: 0;
     padding: 0px;
     margin: 0px;
@@ -29,5 +29,19 @@ main{
 
 .links{
     display: flex;
-    flex-flow: wrap column;
+    flex-flow:row;
+    justify-content: space-around;
+}
+
+.indexLink{
+}
+.charactersLink{
+}
+.planets{
+}
+
+footer{
+
+    padding: 0px;
+    margin: 0px;
 }
