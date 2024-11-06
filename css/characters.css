@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px;
-    background-color: rgba(117, 18, 108, 0.399);
+    background-color: rgba(117, 18, 109, 0.350);
     padding: 0px;
     margin: 0px;
 }
@@ -13,7 +13,7 @@
     display: flex;
     flex-flow: wrap column;
     justify-content: space-evenly;
-    background-color: rgb(0, 3, 83);
+    background-color: rgb(0, 3, 82);
     border-radius: 20px;
     margin: 30px;     
 }
@@ -26,6 +26,8 @@
     max-height: 300px;
     align-self: center;
     margin: 10px;  
+    background-color:  rgba(144, 166, 255, 0.508);
+    border-radius: 15px;
 }
 
 .cardBody{
@@ -58,7 +60,7 @@
 }
 
 .listGroup{
-    background-color:rgb(46, 146, 29);
+    background-color:rgb(205, 99, 0);
     display: grid;
     grid-template-rows: 1fr 1fr 1fr ;
     grid-template-columns: 1fr;
@@ -67,7 +69,7 @@
 }
 
 .listInfo{
-    background-color:rgba(216, 255, 218, 0.568);
+    background-color:rgba(252, 234, 206, 0.462);
     font-family: monospace;
     margin:10px;
     border-radius: 15px;

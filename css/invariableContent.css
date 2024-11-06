@@ -1,8 +1,4 @@
 body{
-    background-image: url(./img/kameHouse.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode:lighten;
     padding: 0px;
     margin: 0px;
 }
