@@ -16,6 +16,8 @@ header{
 }
 
 main{
+    display: flex;
+    flex-direction: column;
     background-image: url(./img/kameHouse.png);
     background-repeat: no-repeat;
     background-size:cover;
