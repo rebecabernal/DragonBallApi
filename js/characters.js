@@ -18,15 +18,15 @@ async function fetchCharactersJson(){
 function createCharacterCard ({name, gender, ki, maxKi, race, image, affiliation}){
     return `
         <div class="cards">
-            <img src="${image}" class="cardImgTop" alt="Dragon Ball Character">
-            <div class="cardBody">
-                <p class="cardName">${name}</p>
-                <p class="cardText">${race} - ${gender}</p>
+            <img src="${image}" class="imgTop" alt="Dragon Ball character">
+            <div class="body">
+                <p class="name">${name}</p>
+                <p class="text">${race} - ${gender}</p>
             </div>
-            <div class="listGroup">
-                <p class="listInfo">Base Ki: ${ki}</p>
-                <p class="listInfo">Max Ki: ${maxKi}</p>
-                <p class="listInfo">Affiliation: ${affiliation}</p>
+            <div class="group">
+                <p class="info">Base Ki: ${ki}</p>
+                <p class="info">Max Ki: ${maxKi}</p>
+                <p class="info">Affiliation: ${affiliation}</p>
             </div>
         </div>
 `;
