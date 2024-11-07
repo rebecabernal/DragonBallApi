@@ -16,7 +16,7 @@
     border-radius: 20px;
     margin:30px;
     min-width:50px;
-    max-width: 450px;
+    max-width: 370px;
     min-height: 50px;
     max-height: 650px;
 }
@@ -24,9 +24,8 @@
 .imgTop{
     display: flex;
     min-width: 300px;
-    max-width:500px;
-    min-height: 250px;
-    max-height: 400px;
+    max-width:350px;
+    height: 250px;
     align-self: center;
     margin-top: 10px;
     margin-left: 10px;

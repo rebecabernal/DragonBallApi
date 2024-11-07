@@ -43,6 +43,8 @@ main{
     justify-content: center;
     font-size: 16px;
     border-radius: 15px;
+    padding: 0px;
+    margin: 0px;
 
     a:link, a:visited {
         text-decoration: double;
@@ -69,8 +71,10 @@ footer{
 
 .copyright{
     text-align: center;
-    align-content: space-around;
+    justify-content: space-around;
     color:rgb(182, 207, 252);
     font-family: monospace;
     font-size: 15px;
+    margin: 0px;
+    padding: 0px;
 }
