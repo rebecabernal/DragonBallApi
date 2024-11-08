@@ -5,19 +5,23 @@ body{
 
 header{
     display: flex;
-    flex-flow: wrap column;
     justify-content: center;
     height: 60px;
-    background-color:rgb(177, 92, 0);
+    background-color:rgb(186, 90, 0);
     position: sticky; top: 0;
     padding: 0px;
-    margin: 0px;  
+    margin: 0px;
+    font-family: monospace;
 }
 
+
 .links{
+    background-color: rgba(255, 235, 205, 0);
     display: flex;
     flex-flow:row;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 800px;
 }
 
 .link{
@@ -26,25 +30,25 @@ header{
     font-family: monospace;
     font-weight: 900;
     background-image: url(./img/pixelSunriseBanner.png);
-    min-width: 250px;
-    max-width: 800px;
+    min-width: 200px;
+    max-width: 250px;
     text-align: center;
     justify-content: center;
     font-size: 16px;
     border-radius: 15px;
     padding: 0px;
-    margin: 0px;
+    margin: 10px;
     a:link, a:visited {
         text-decoration: double;
-        color:rgb(255, 237, 217);
+        color: rgb(123, 19, 0);
         }
     a:hover {
         text-decoration: dashed;
-        color: rgb(0, 66, 189);
+        color:rgb(187, 28, 0);
         }
     a:active {
         text-decoration: double;
-        color:rgb(93, 149, 251);
+        color:rgb(255, 38, 0);
     }  
 }
 
@@ -92,12 +96,10 @@ main{
 .workInfoCard{
     display: flex;
     justify-content: center;
-    background-color:rgba(255, 209, 149, 0.905);
+    background-color:rgb(33, 5, 0);
     border-radius: 15px;
-    min-width: none;
-    max-width: 700px; 
-    min-height: none;
-    max-height: 450px;  
+    width: 295px; 
+    height: 105px;  
     margin-top: 10px; 
     margin-left: 10px;
     margin-right: 10px;
@@ -105,9 +107,9 @@ main{
 
 .workInfoCardBody{
     display: grid;
-    background-color:rgba(255, 145, 0, 0.896);
-    grid-template-columns: 150px 150px;
-    grid-template-rows: 50px 50px 50px;
+    background-color:rgb(205, 31, 0);
+    grid-template-columns: 200px 80px;
+    grid-template-rows: 40px 30px 30px;
     border-radius: 15px;
     margin: 5px;
 }
@@ -118,9 +120,9 @@ main{
     font-style: oblique;
     font-family: monospace;
     font-size:20px;
-    color: rgb(255, 211, 160);
+    color:rgb(45, 7, 0);
     align-items: center;
-    margin-left: 10px;
+    margin: 10px;
 }
 
 .workInfoTitleSocials{
@@ -129,49 +131,51 @@ main{
     font-style: oblique;
     font-family: monospace;
     font-size:20px;
-    color: rgb(255, 211, 157);
+    color: rgb(41, 6, 0);
     align-items: center;
+    justify-content: right;
 }
 
 .workInfoApi{
     grid-column: 1;
     grid-row: 2;
-    color: rgb(60, 34, 0);
+    color: rgb(41, 6, 0);
     font-family: monospace;
     font-size: 15px;
     font-weight: bold;
     align-items: center;
     text-decoration: underline;
-    margin: 10px;
+    margin-left: 10px;
+    font-style: oblique;
 }
 
 .workInfoImg{
     grid-column: 1;
     grid-row: 3;
-    color: rgb(60, 34, 0);
+    color:rgb(41, 6, 0);
     font-family: monospace;
     font-size:15px;
     font-weight: bold;
     align-items: center;
     margin-left: 10px;
     text-decoration: underline;
+    font-style: oblique;
 }
 
 .workInfoSocials{
     grid-column: 2;
     grid-row-start: 2;
     grid-row-end: 4;
-    color: rgba(60, 34, 0);
+    color: rgb(41, 6, 0);
     font-style: oblique;
     font-family: monospace;
     font-size:15px;
-    justify-self: right;
-    margin-right: 5px;
+    align-items: center;
     margin-left: 5px;
 }
 
 .githubIcon{
-    width: 90px;
+    width: 60px;
 }
 
 .copyrightTextCard{
@@ -185,11 +189,11 @@ main{
 
 .copyrightText{
     display: flex;
-    background-color:rgba(0, 3, 82, 0.71);
+    background-color:rgb(186, 90, 0);
     font: small monospace;
     font-style: oblique;
     border-radius: 15px;
-    color: rgba(231, 231, 255, 0.77);
+    color:rgb(254, 199, 148);
     min-height: 150px;
     max-height: 200px;
     min-width: none;
@@ -197,23 +201,24 @@ main{
     margin: 5px;
 }
 
+.copyrightTextCard{
+    border-radius: 15px;
+    background-color: rgb(254, 158, 71);
+}
+
 footer{
-    background-color:rgb(0, 3, 82);
+    background-color:rgb(186, 90, 0);
     max-height: 100px;
     min-height: 50px;
     padding: 0px;
     margin: 0px;
 }
 
-.copyrightLine{
-    border-radius: 15px;
-    background-color: rgb(0, 3, 82);
-}
 
 .copyright{
     text-align: center;
     justify-content: space-around;
-    color:rgb(182, 207, 252);
+    color:rgb(254, 199, 148);
     font-family: monospace;
     font-size: 15px;
     margin: 0px;
