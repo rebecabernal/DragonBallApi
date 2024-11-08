@@ -11,21 +11,8 @@ header{
     background-color: rgb(0, 3, 82);
     position: sticky; top: 0;
     padding: 0px;
-    margin: 0px;
-    
+    margin: 0px;  
 }
-
-main{
-    display: flex;
-    flex-direction: column;
-    background-image: url(./img/kameHouse.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    padding: 0px;
-    margin: 0px;
-}
-
 
 .links{
     display: flex;
@@ -61,6 +48,17 @@ main{
         color: rgb(255, 177, 94);
     }
     
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img/kameHouse.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
 }
 
 footer{
