@@ -34,7 +34,6 @@ header{
     border-radius: 15px;
     padding: 0px;
     margin: 0px;
-
     a:link, a:visited {
         text-decoration: double;
         color:rgb(255, 237, 217);
@@ -46,8 +45,7 @@ header{
     a:active {
         text-decoration: double;
         color:rgb(93, 149, 251);
-    }
-    
+    }  
 }
 
 main{
@@ -79,7 +77,6 @@ main{
 }
 
 .info{
-    background-color: rgba(240, 248, 255, 0.458);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -93,7 +90,7 @@ main{
 .workInfoCard{
     display: flex;
     justify-content: center;
-    background-color:rgba(250, 235, 215, 0.704);
+    background-color:rgb(18, 11, 151);
     border-radius: 15px;
     min-width: none;
     max-width: 700px; 
@@ -105,10 +102,11 @@ main{
 }
 
 .workInfoCardBody{
-    background-color: aqua;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    background-color:rgba(84, 75, 251, 0.536);
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 50px 50px 50px;
+    border-radius: 15px;
     margin: 10px;
 }
 
@@ -118,10 +116,9 @@ main{
     font-style: oblique;
     font-family: monospace;
     font-size:20px;
-    color: rgb(212, 110, 0);
+    color: rgb(255, 145, 0);
     align-items: center;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
 }
 
 .workInfoTitleSocials{
@@ -130,82 +127,75 @@ main{
     font-style: oblique;
     font-family: monospace;
     font-size:20px;
-    color: rgb(212, 110, 0);
+    color: rgb(255, 145, 0);
     align-items: center;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 
 .workInfoApi{
     grid-column: 1;
     grid-row: 2;
+    color: rgb(255, 145, 0);
     font-style: oblique;
     font-family: monospace;
-    font-size:15px;
-    color: rgb(212, 110, 0);
+    font-size: 15px;
+    font-weight: bold;
     align-items: center;
-    margin-left: 5px;
-    margin-right: 5px;
-
+    text-decoration: none;
+    margin: 10px;
 }
 
 .workInfoImg{
     grid-column: 1;
     grid-row: 3;
+    color: rgb(255, 145, 0);
     font-style: oblique;
     font-family: monospace;
     font-size:15px;
-    color: rgb(212, 110, 0);
+    font-weight: bold;
     align-items: center;
-    margin-left: 5px;
-    margin-right: 5px;
-
+    margin-left: 10px;
+    text-decoration: none;
 }
-
 
 .workInfoSocials{
     grid-column: 2;
     grid-row-start: 2;
     grid-row-end: 4;
+    color: rgba(255, 154, 21, 0.996);
     font-style: oblique;
     font-family: monospace;
     font-size:15px;
-    color: rgb(212, 110, 0);
-    align-items: center;
+    justify-self: right;
     margin-right: 5px;
     margin-left: 5px;
-
 }
 
-
 .githubIcon{
-    background-color: blueviolet;
     width: 90px;
 }
 
 .copyrightTextCard{
     display: flex;
     justify-content: center;
-    padding: 0px;
-    margin: 0px;
-    
+    align-content: space-around;
+    border-radius: 15px;
+    background-color: rgba(0, 2, 67, 0.418);
+    margin-bottom: 15px;
 }
 
 .copyrightText{
     display: flex;
-    background-color:rgba(255, 237, 217, 0.686);
+    background-color:rgba(0, 3, 82, 0.71);
     font: small monospace;
     font-style: oblique;
     border-radius: 15px;
-    color: rgb(0, 0, 0);
+    color: rgba(231, 231, 255, 0.77);
     min-height: 150px;
     max-height: 200px;
     min-width: none;
     max-width: 600px;
-    margin: 10px;
-
+    margin: 5px;
 }
-
 
 footer{
     background-color:rgb(0, 3, 82);
@@ -213,6 +203,11 @@ footer{
     min-height: 50px;
     padding: 0px;
     margin: 0px;
+}
+
+.copyrightLine{
+    border-radius: 15px;
+    background-color: rgb(0, 3, 82);
 }
 
 .copyright{
