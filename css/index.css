@@ -72,7 +72,8 @@ main{
     align-self: center;
     min-width: none;
     max-width: 600px;
-    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 50px;
 
 }
 
@@ -85,17 +86,18 @@ main{
     max-width: 600px;
     min-height: none;
     max-height: 600px;
+    margin-bottom: 5px;
 }
 
 .workInfoCard{
     display: flex;
     justify-content: center;
-    background-color:rgb(18, 11, 151);
+    background-color:rgba(255, 209, 149, 0.905);
     border-radius: 15px;
     min-width: none;
     max-width: 700px; 
     min-height: none;
-    max-height: 250px;  
+    max-height: 450px;  
     margin-top: 10px; 
     margin-left: 10px;
     margin-right: 10px;
@@ -103,11 +105,11 @@ main{
 
 .workInfoCardBody{
     display: grid;
-    background-color:rgba(84, 75, 251, 0.536);
+    background-color:rgba(255, 145, 0, 0.896);
     grid-template-columns: 150px 150px;
     grid-template-rows: 50px 50px 50px;
     border-radius: 15px;
-    margin: 10px;
+    margin: 5px;
 }
 
 .workInfoTitleResources{
@@ -116,7 +118,7 @@ main{
     font-style: oblique;
     font-family: monospace;
     font-size:20px;
-    color: rgb(255, 145, 0);
+    color: rgb(255, 211, 160);
     align-items: center;
     margin-left: 10px;
 }
@@ -127,41 +129,39 @@ main{
     font-style: oblique;
     font-family: monospace;
     font-size:20px;
-    color: rgb(255, 145, 0);
+    color: rgb(255, 211, 157);
     align-items: center;
 }
 
 .workInfoApi{
     grid-column: 1;
     grid-row: 2;
-    color: rgb(255, 145, 0);
-    font-style: oblique;
+    color: rgb(60, 34, 0);
     font-family: monospace;
     font-size: 15px;
     font-weight: bold;
     align-items: center;
-    text-decoration: none;
+    text-decoration: underline;
     margin: 10px;
 }
 
 .workInfoImg{
     grid-column: 1;
     grid-row: 3;
-    color: rgb(255, 145, 0);
-    font-style: oblique;
+    color: rgb(60, 34, 0);
     font-family: monospace;
     font-size:15px;
     font-weight: bold;
     align-items: center;
     margin-left: 10px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .workInfoSocials{
     grid-column: 2;
     grid-row-start: 2;
     grid-row-end: 4;
-    color: rgba(255, 154, 21, 0.996);
+    color: rgba(60, 34, 0);
     font-style: oblique;
     font-family: monospace;
     font-size:15px;
@@ -180,7 +180,7 @@ main{
     align-content: space-around;
     border-radius: 15px;
     background-color: rgba(0, 2, 67, 0.418);
-    margin-bottom: 15px;
+    margin: 10px;
 }
 
 .copyrightText{
