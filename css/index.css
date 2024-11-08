@@ -77,13 +77,13 @@ main{
     min-width: none;
     max-width: 600px;
     margin-top: 15px;
-    margin-bottom: 50px;
-
+    margin-bottom: 20px;
 }
 
 .cloudGif{
     max-width: 250px;
     border-radius: 15px;
+    margin-bottom: 5px;
 }
 
 .info{
