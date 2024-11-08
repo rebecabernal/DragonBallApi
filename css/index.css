@@ -81,6 +81,11 @@ main{
 
 }
 
+.cloudGif{
+    max-width: 250px;
+    border-radius: 15px;
+}
+
 .info{
     border-radius: 15px;
     display: flex;
