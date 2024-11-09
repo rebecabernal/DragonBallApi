@@ -30,6 +30,7 @@ I used Visual studio code for this project
 - ### Postman. 
 Create a new collection and open two new files; the first for the characters and the second for the planets, then,
 Go to the API page to copy the necessary links (pay attention that the end points correspond to the needs).
+
 ![Captura de pantalla 2024-11-09 180608](https://github.com/user-attachments/assets/838f8676-eb09-4aac-bbd1-f4452d2d18d7)
 ![Captura de pantalla 2024-11-09 180725](https://github.com/user-attachments/assets/3bf43191-1896-40b8-930d-97b65b163550)
 ![Captura de pantalla 2024-11-09 181615](https://github.com/user-attachments/assets/93cee803-927b-4a72-9264-3f11efd431f1)
