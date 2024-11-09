@@ -40,14 +40,18 @@ When we make sure the URL has what we want, copy it and move to the next step.
 - ### Javascript.
 1. Paste the desired URL in your const.
 ![Captura de pantalla 2024-11-09 184112](https://github.com/user-attachments/assets/b604e65b-9850-4f15-9071-63c8dd1c8d39)
+
 2. We need to create a function that fetch for the characters/planets in the Json.
 ![Captura de pantalla 2024-11-09 183959](https://github.com/user-attachments/assets/d818b2dd-eef1-4802-90bc-9b94799ded7e)
 >Feel free to do a `console.log` to see if everything works right (don't forget to remove it later).
+
 3. Now we need to create another function that state **what** we want to see by filtering the keys. After it we must state **how** we want to see it by adding html to our JS and implementing the keys we previously selected. 
 ![Captura de pantalla 2024-11-09 184014](https://github.com/user-attachments/assets/c663815f-5f07-44bf-89db-34a7d6868765)
+
 4. Lastly create another function that will display the characters/planets in your Html, make sure you do the correct naming.
 ![Captura de pantalla 2024-11-09 184034](https://github.com/user-attachments/assets/7fb7172d-f072-47dd-9c54-d8be91e950d0)
-In the red lines we are injecting the Js into the Html, keep in mind the **key** you passed.
+>In the red lines we are injecting the Js into the Html, keep in mind the **key** you passed.
+
 5. Dont forget to call the function!
 ![Captura de pantalla 2024-11-09 184045](https://github.com/user-attachments/assets/e0884367-fc0e-46f9-a7bf-3d549123cbfa)
 >Again feel free to do a `console.log` to see if everything works right (don't forget to remove it later).
@@ -57,6 +61,7 @@ Last but not least, in our HTML we have to inject the JS.
 ![image](https://github.com/user-attachments/assets/265979e7-6d57-4f8f-8f87-9633e237ebaa)
 Make sure the naming is correct, we can do it by looking the **key** in our JS.
 >Link HTML to CSS.
+
 Moving to CSS we have to give some style, I pesonally prefered to do it myself, you can use Boostrap, Tailwind, etc.
 ![Captura de pantalla 2024-11-09 234148](https://github.com/user-attachments/assets/26d78910-64c3-4513-afc8-437671a2eacc)
 >This is an example.
