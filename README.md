@@ -1,5 +1,5 @@
 
-# *Project-Dragon Ball Api*
+# *Dragon Ball Api*
 
 *This project purpose is to applay an Api succesfully.*
 
