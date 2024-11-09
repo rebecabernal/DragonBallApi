@@ -46,37 +46,47 @@ When we make sure the URL has what we want, copy it and move to the next step.
 
 - ### Javascript.
 1. Paste the desired URL in the const.
+
 ![Captura de pantalla 2024-11-09 184112](https://github.com/user-attachments/assets/14aaf141-8ffa-4a79-8057-d54ff9e04eec)
 
 2. We need to create a function that fetch for the characters/planets in the Json.
+ 
 ![Captura de pantalla 2024-11-09 183959](https://github.com/user-attachments/assets/76428ee9-8fc4-4da0-948f-76835fe4fba2)
 >Feel free to do a `console.log` to see if everything works right (don't forget to remove it later).
 
-3. Now we need to create another function that state **what** we want to see by filtering the keys. After it we must state **how** we want to see it by adding html to our JS and implementing the keys we previously selected. 
+3. Now we need to create another function that state **what** we want to see by filtering the keys. After it we must state **how** we want to see it by adding html to our JS and implementing the keys we previously selected.
+ 
 ![Captura de pantalla 2024-11-09 184014](https://github.com/user-attachments/assets/fabc671f-e01d-4df4-8391-914444452341)
 
 4. Lastly create another function that will display the characters/planets in our Html, make sure to do the correct naming.
+
 ![Captura de pantalla 2024-11-09 184034](https://github.com/user-attachments/assets/d5557dc0-8b19-45e3-bbdd-448c5f2b05b1)
 >In the red lines we are injecting the JS into the Html, keep in mind the **key** passed.
 
 5. Don't forget to call the function!
+
 ![Captura de pantalla 2024-11-09 184045](https://github.com/user-attachments/assets/9b541c6c-2b24-4ba0-93b5-d854ba2fca12)
 >Again feel free to do a `console.log` to see if everything works right (Remember to remove it later).
 
 - ### HTML & CSS:
 Last but not least, in our HTML we have to inject the JS.
+
 ![image](https://github.com/user-attachments/assets/265979e7-6d57-4f8f-8f87-9633e237ebaa)
+
 Make sure the naming is correct, we can do it by looking the **key** we passed in the JS.
 >Link HTML to CSS.
 
 Moving to CSS we have to give some style, I pesonally prefered to do it myself but things like Boostrap & Tailwind can be used too.
+
 ![Captura de pantalla 2024-11-09 234148](https://github.com/user-attachments/assets/26d78910-64c3-4513-afc8-437671a2eacc)
 >This is an example.
 >Don't forget the Header and Footer.
 
 ## *Voilá* All Done! 
 If Everything Went OK We Have To Get Something Like This:
+
 ![image](https://github.com/user-attachments/assets/02c52530-46c3-4a5a-903a-3d06573ebb8c) ![image](https://github.com/user-attachments/assets/6d0971fe-075b-460c-8524-10b0b18a4f0b)
+
 >***Quite Recommended** keep the code clean, well named and organized.**
 
 ---
