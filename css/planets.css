@@ -13,10 +13,6 @@
     flex-flow: wrap column;
     justify-content: space-evenly;
     background-color: rgb(0, 3, 82);
-    min-width: none;
-    max-width: 370px;
-    min-height: none;
-    max-height: 400px;   
     border-radius: 15px;
     margin:30px;
 }
@@ -28,8 +24,8 @@
     min-height: none;
     max-height: 250px;
     align-self: center;
-    margin: 10px;
     border-radius: 15px;
+    margin: 10px;
 }
 
 .body{
