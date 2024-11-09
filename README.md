@@ -11,6 +11,5 @@
 <a href='https://git-scm.com' target="_blank"><img alt='git' src='https://img.shields.io/badge/git-100000?style=for-the-badge&logo=git&logoColor=F05032&labelColor=000000&color=F05032'/></a>
 <a href='' target="_blank"><img alt='css3' src='https://img.shields.io/badge/css3-100000?style=for-the-badge&logo=css3&logoColor=1572B6&labelColor=000000&color=1572B6'/></a>
 <a href='' target="_blank"><img alt='javascript' src='https://img.shields.io/badge/javascript-100000?style=for-the-badge&logo=javascript&logoColor=F7DF1E&labelColor=000000&color=F7DF1E'/></a>
-<a href='' target="_blank"><img alt='visual code studio' src='https://img.shields.io/badge/vsc-100000?style=for-the-badge&logo=visual code studio&logoColor=F7DF1E&labelColor=000000&color=2EAECD'/></a>
-<a href='https://github.com' target="_blank"><img alt='github' src='https://img.shields.io/badge/github-100000?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=000000&color=181717'/></a>
+<a href='https://github.com' target="_blank"><img alt='github' src='https://img.shields.io/badge/github-100000?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=181717&color=181717'/></a>
 
