@@ -29,40 +29,45 @@ I used Visual studio code for this project
 ## Installation Steps:
 - ### Postman. 
 Create a new collection and open two new files; the first for the characters and the second for the planets, then,
-Go to the API page to copy the necessary links (pay attention that the end points correspond to your needs)
-![Captura de pantalla 2024-11-09 180608](https://github.com/user-attachments/assets/51949526-1c79-47f0-96f8-a4fa1b5095ef) ![Captura de pantalla 2024-11-09 180725](https://github.com/user-attachments/assets/ed1f55de-4b8d-4af5-999a-c29ed5c6c045) ![Captura de pantalla 2024-11-09 181615](https://github.com/user-attachments/assets/7ef8fcf2-ecbe-4471-8b94-b1237aa038fd) ![Captura de pantalla 2024-11-09 181807](https://github.com/user-attachments/assets/33ce888e-db02-491a-a4a3-0702c0d0f874) ![Captura de pantalla 2024-11-09 181851](https://github.com/user-attachments/assets/093057c3-bc37-4db7-8e73-800af118e579)
-(?limit= correspont to how many charactes/planets you want per page, in this case we want all; they are 58 characters in total so ?limit=58)
+Go to the API page to copy the necessary links (pay attention that the end points correspond to the needs)
+![Captura de pantalla 2024-11-09 180608](https://github.com/user-attachments/assets/838f8676-eb09-4aac-bbd1-f4452d2d18d7)
+![Captura de pantalla 2024-11-09 180725](https://github.com/user-attachments/assets/3bf43191-1896-40b8-930d-97b65b163550)
+![Captura de pantalla 2024-11-09 181615](https://github.com/user-attachments/assets/93cee803-927b-4a72-9264-3f11efd431f1)
+![Captura de pantalla 2024-11-09 181754](https://github.com/user-attachments/assets/0e95aa23-8736-448f-900c-6854de914080)
+![Captura de pantalla 2024-11-09 181851](https://github.com/user-attachments/assets/19d0f290-ac09-40ce-9d85-d623e4edd5dd)
+>(?limit= correspont to how many charactes/planets you want per page, in this case we want all; they are 58 characters in total so ?limit=58)
+
 ![image](https://github.com/user-attachments/assets/d454e9de-e0cd-4ea3-bd6c-a67d940e0ecb)
 Here we can see the URL content in the Json. 
 
 When we make sure the URL has what we want, copy it and move to the next step.
 
 - ### Javascript.
-1. Paste the desired URL in your const.
-![Captura de pantalla 2024-11-09 184112](https://github.com/user-attachments/assets/b604e65b-9850-4f15-9071-63c8dd1c8d39)
+1. Paste the desired URL in the const.
+![Captura de pantalla 2024-11-09 184112](https://github.com/user-attachments/assets/14aaf141-8ffa-4a79-8057-d54ff9e04eec)
 
 2. We need to create a function that fetch for the characters/planets in the Json.
-![Captura de pantalla 2024-11-09 183959](https://github.com/user-attachments/assets/d818b2dd-eef1-4802-90bc-9b94799ded7e)
+![Captura de pantalla 2024-11-09 183959](https://github.com/user-attachments/assets/76428ee9-8fc4-4da0-948f-76835fe4fba2)
 >Feel free to do a `console.log` to see if everything works right (don't forget to remove it later).
 
 3. Now we need to create another function that state **what** we want to see by filtering the keys. After it we must state **how** we want to see it by adding html to our JS and implementing the keys we previously selected. 
-![Captura de pantalla 2024-11-09 184014](https://github.com/user-attachments/assets/c663815f-5f07-44bf-89db-34a7d6868765)
+![Captura de pantalla 2024-11-09 184014](https://github.com/user-attachments/assets/fabc671f-e01d-4df4-8391-914444452341)
 
-4. Lastly create another function that will display the characters/planets in your Html, make sure you do the correct naming.
-![Captura de pantalla 2024-11-09 184034](https://github.com/user-attachments/assets/7fb7172d-f072-47dd-9c54-d8be91e950d0)
->In the red lines we are injecting the Js into the Html, keep in mind the **key** you passed.
+4. Lastly create another function that will display the characters/planets in our Html, make sure to do the correct naming.
+![Captura de pantalla 2024-11-09 184034](https://github.com/user-attachments/assets/d5557dc0-8b19-45e3-bbdd-448c5f2b05b1)
+>In the red lines we are injecting the JS into the Html, keep in mind the **key** passed.
 
-5. Dont forget to call the function!
-![Captura de pantalla 2024-11-09 184045](https://github.com/user-attachments/assets/e0884367-fc0e-46f9-a7bf-3d549123cbfa)
->Again feel free to do a `console.log` to see if everything works right (don't forget to remove it later).
+5. Don't forget to call the function!
+![Captura de pantalla 2024-11-09 184045](https://github.com/user-attachments/assets/9b541c6c-2b24-4ba0-93b5-d854ba2fca12)
+>Again feel free to do a `console.log` to see if everything works right (Remember to remove it later).
 
 - ### HTML & CSS:
 Last but not least, in our HTML we have to inject the JS.
 ![image](https://github.com/user-attachments/assets/265979e7-6d57-4f8f-8f87-9633e237ebaa)
-Make sure the naming is correct, we can do it by looking the **key** in our JS.
+Make sure the naming is correct, we can do it by looking the **key** we passed in the JS.
 >Link HTML to CSS.
 
-Moving to CSS we have to give some style, I pesonally prefered to do it myself, you can use Boostrap, Tailwind, etc.
+Moving to CSS we have to give some style, I pesonally prefered to do it myself but things like Boostrap & Tailwind can be used too.
 ![Captura de pantalla 2024-11-09 234148](https://github.com/user-attachments/assets/26d78910-64c3-4513-afc8-437671a2eacc)
 >This is an example.
 >Don't forget the Header and Footer.
