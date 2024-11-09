@@ -13,12 +13,12 @@
     flex-flow: wrap column;
     justify-content: space-evenly;
     background-color: rgb(0, 3, 82);
-    border-radius: 20px;
-    margin:30px;
+    border-radius: 15px;
     min-width: none;
-    max-width: 370px;
+    max-width: 400px;
     min-height: none;
     max-height: 350px;
+    margin:30px;
 }
 
 .imgTop{
