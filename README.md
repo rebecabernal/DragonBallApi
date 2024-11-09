@@ -16,7 +16,6 @@
 I used Visual studio code for this project
 
 ## Requirements I Have To Meet:
-
 - Create a page in HTML and CSS with Javascript.
 - Make the relevant commits and push them to the repository.
 - Give it styles with CSS.
@@ -44,7 +43,40 @@ When we make sure the URL has what we want, copy it and move to the next step.
 2. We need to create a function that fetch for the characters/planets in the Json.
 ![Captura de pantalla 2024-11-09 183959](https://github.com/user-attachments/assets/d818b2dd-eef1-4802-90bc-9b94799ded7e)
 >Feel free to do a `console.log` to see if everything works right (don't forget to remove it later).
-3. Now we need to create another function that state what we want to see by filtering the keys. After it we must state HOW we want to see it by putting 
+3. Now we need to create another function that state **what** we want to see by filtering the keys. After it we must state **how** we want to see it by adding html to our JS and implementing the keys we previously selected. 
+![Captura de pantalla 2024-11-09 184014](https://github.com/user-attachments/assets/c663815f-5f07-44bf-89db-34a7d6868765)
+4. Lastly create another function that will display the characters/planets in your Html, make sure you do the correct naming.
+![Captura de pantalla 2024-11-09 184034](https://github.com/user-attachments/assets/7fb7172d-f072-47dd-9c54-d8be91e950d0)
+In the red lines we are injecting the Js into the Html, keep in mind the **key** you passed.
+5. Dont forget to call the function!
+![Captura de pantalla 2024-11-09 184045](https://github.com/user-attachments/assets/e0884367-fc0e-46f9-a7bf-3d549123cbfa)
+>Again feel free to do a `console.log` to see if everything works right (don't forget to remove it later).
+
+- ### HTML & CSS:
+Last but not least, in our HTML we have to inject the JS.
+![image](https://github.com/user-attachments/assets/265979e7-6d57-4f8f-8f87-9633e237ebaa)
+Make sure the naming is correct, we can do it by looking the **key** in our JS.
+>Link HTML to CSS.
+Moving to CSS we have to give some style, I pesonally prefered to do it myself, you can use Boostrap, Tailwind, etc.
+![Captura de pantalla 2024-11-09 234148](https://github.com/user-attachments/assets/26d78910-64c3-4513-afc8-437671a2eacc)
+>This is an example.
+>Don't forget the Header and Footer.
+
+## *Voilá* All Done! 
+If Everything Went OK We Have To Get Something Like This:
+![image](https://github.com/user-attachments/assets/02c52530-46c3-4a5a-903a-3d06573ebb8c) ![image](https://github.com/user-attachments/assets/6d0971fe-075b-460c-8524-10b0b18a4f0b)
+>***Quite Recommended** keep the code clean, well named and organized.**
+
+---
+
+You can take a look of my work here: *https://rebecabernal.github.io/DragonBallApi/*
+For further information, here is my contact: *@rebecabernalmesa@gmail.com*
+
+---
+
+# Happy Coding! :D
+
+  
 
   
  
