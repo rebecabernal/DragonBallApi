@@ -29,12 +29,13 @@ I used Visual studio code for this project
 ## Installation Steps:
 - ### Postman. 
 Create a new collection and open two new files; the first for the characters and the second for the planets, then,
-Go to the API page to copy the necessary links (pay attention that the end points correspond to the needs)
+Go to the API page to copy the necessary links (pay attention that the end points correspond to the needs).
 ![Captura de pantalla 2024-11-09 180608](https://github.com/user-attachments/assets/838f8676-eb09-4aac-bbd1-f4452d2d18d7)
 ![Captura de pantalla 2024-11-09 180725](https://github.com/user-attachments/assets/3bf43191-1896-40b8-930d-97b65b163550)
 ![Captura de pantalla 2024-11-09 181615](https://github.com/user-attachments/assets/93cee803-927b-4a72-9264-3f11efd431f1)
 ![Captura de pantalla 2024-11-09 181754](https://github.com/user-attachments/assets/0e95aa23-8736-448f-900c-6854de914080)
 ![Captura de pantalla 2024-11-09 181851](https://github.com/user-attachments/assets/19d0f290-ac09-40ce-9d85-d623e4edd5dd)
+
 >(?limit= correspont to how many charactes/planets you want per page, in this case we want all; they are 58 characters in total so ?limit=58)
 
 ![image](https://github.com/user-attachments/assets/d454e9de-e0cd-4ea3-bd6c-a67d940e0ecb)
