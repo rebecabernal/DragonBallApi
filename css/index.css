@@ -1,27 +1,33 @@
 body{
-    margin: 0px;
+    display: flex;
+    flex-flow: wrap column;
+    background-color: rgb(57, 57, 57); 
     padding: 0px;
+    margin: 0px;
+
+
+    background-image: url(./img/backgroundIndex.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
 }
 
 header{
     display: flex;
     justify-content: center;
-    height: 60px;
+    flex-flow: column;
     background-color:rgb(186, 90, 0);
     position: sticky; top: 0;
-    padding: 0px;
-    margin: 0px;
     font-family: monospace;
 }
 
-
 .links{
-    background-color: rgba(255, 235, 205, 0);
     display: flex;
-    flex-flow:row;
     align-items: center;
     justify-content:space-evenly;
-    width: 800px;
+    margin: 5px;
 }
 
 .link{
@@ -30,14 +36,14 @@ header{
     font-family: monospace;
     font-weight: 900;
     background-image: url(./img/pixelSunriseBanner.png);
-    min-width: 200px;
-    max-width: 250px;
+    width: 110px;
     text-align: center;
     justify-content: center;
     font-size: 16px;
     border-radius: 15px;
     padding: 0px;
-    margin: 10px;
+    margin: 0px;
+
     a:link, a:visited {
         text-decoration: double;
         color: rgb(123, 19, 0);
@@ -54,41 +60,61 @@ header{
 
 main{
     display: flex;
-    flex-flow: wrap column;
+    flex-flow: column;
     align-items: center;
-    background-image: url(./img/backgroundIndex.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    padding: 0px;
-    margin: 0px;
-}
-
-.mainBannerCard{
-    display: flex;
-    justify-content: center;
-    padding: 0px;
-    margin: 0px;
 }
 
 .mainBanner{
     display: flex;
-    align-self: center;
-    min-width: none;
-    max-width: 600px;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    flex-flow: nowrap column;
+    align-content: center;
+    text-align: center;
+}
+
+h1{
+    font-weight: bolder;
+    font-family: monospace;
+    color: rgb(150, 0, 0);
+    font-style: oblique;
+    font-size: 80px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:black;  
+    padding: 0px;
+    margin: 0px; 
+}
+
+h2{
+    font-weight: bolder;
+    font-family: monospace;
+    color: rgb(255, 179, 0);
+    font-style: oblique;
+    font-size: 70px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:black;
+    padding: 0px;
+    margin: 0px;
+}
+
+h3{
+    font-weight: bolder;
+    font-family: monospace;
+    color: rgb(0, 119, 0);
+    font-style: oblique;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:black;
 }
 
 .cloudGif{
+    display: flex;
     max-width: 250px;
     border-radius: 15px;
     margin-bottom: 5px;
 }
 
 .info{
-    border-radius: 15px;
     display: flex;
+    border-radius: 15px;
     flex-direction: column;
     align-items: center;
     min-width: none;
@@ -105,14 +131,13 @@ main{
     border-radius: 15px;
     width: 295px; 
     height: 105px;  
-    margin-top: 10px; 
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 .workInfoCardBody{
+    display: flex;
     display: grid;
-    background-color:rgb(205, 31, 0);
+    background-color:rgb(150, 0, 0);
     grid-template-columns: 200px 80px;
     grid-template-rows: 40px 30px 30px;
     border-radius: 15px;
@@ -120,20 +145,24 @@ main{
 }
 
 .workInfoTitleResources{
+    display: flex;
     grid-column: 1;
     grid-row: 1;
     font-style: oblique;
+    font-weight: bolder;
     font-family: monospace;
-    font-size:20px;
+    font-size: 20px;
     color:rgb(45, 7, 0);
     align-items: center;
     margin: 10px;
 }
 
 .workInfoTitleSocials{
+    display: flex;
     grid-column: 2;
     grid-row: 1;
     font-style: oblique;
+    font-weight: bolder;
     font-family: monospace;
     font-size:20px;
     color: rgb(41, 6, 0);
@@ -142,6 +171,7 @@ main{
 }
 
 .workInfoApi{
+    display: flex;
     grid-column: 1;
     grid-row: 2;
     color: rgb(41, 6, 0);
@@ -155,6 +185,7 @@ main{
 }
 
 .workInfoImg{
+    display: flex;
     grid-column: 1;
     grid-row: 3;
     color:rgb(41, 6, 0);
@@ -168,6 +199,7 @@ main{
 }
 
 .workInfoSocials{
+    display: flex;
     grid-column: 2;
     grid-row-start: 2;
     grid-row-end: 4;
@@ -180,13 +212,13 @@ main{
 }
 
 .githubIcon{
+    display: flex;
     width: 60px;
 }
 
 .copyrightTextCard{
     display: flex;
     justify-content: center;
-    align-content: space-around;
     border-radius: 15px;
     background-color: rgba(0, 2, 67, 0.418);
     margin: 10px;
@@ -199,33 +231,31 @@ main{
     font-style: oblique;
     border-radius: 15px;
     color:rgb(254, 199, 148);
-    min-height: 150px;
-    max-height: 200px;
+    min-height: 200px;
+    max-height: none;
     min-width: none;
     max-width: 600px;
     margin: 5px;
 }
 
 .copyrightTextCard{
+    display: flex;
     border-radius: 15px;
     background-color: rgb(254, 158, 71);
 }
 
 footer{
+    display: flex;
     background-color:rgb(186, 90, 0);
-    max-height: 100px;
-    min-height: 50px;
-    padding: 0px;
-    margin: 0px;
+    justify-content: center;
 }
 
 
 .copyright{
+    display: flex;
     text-align: center;
-    justify-content: space-around;
     color:rgb(254, 199, 148);
     font-family: monospace;
     font-size: 15px;
-    margin: 0px;
-    padding: 0px;
+    margin: 15px;
 }
