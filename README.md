@@ -25,6 +25,7 @@ I used Visual studio code for this project
 - Minimun one page with the characters and other with the planets.
 
 ## Installation Steps:
+
 - ### Postman. 
 Create a new collection and open two new files; the first for the characters and the second for the planets, then,
 Go to the API page to copy the necessary links (pay attention that the end points correspond to the needs).
@@ -41,6 +42,7 @@ Go to the API page to copy the necessary links (pay attention that the end point
 Here we can see the URL content in the Json. 
 
 When we make sure the URL has what we want, copy it and move to the next step.
+
 
 - ### Javascript.
 1. Paste the desired URL in the const.
@@ -66,6 +68,7 @@ When we make sure the URL has what we want, copy it and move to the next step.
 ![Captura de pantalla 2024-11-09 184045](https://github.com/user-attachments/assets/9b541c6c-2b24-4ba0-93b5-d854ba2fca12)
 >Again feel free to do a `console.log` to see if everything works right (Remember to remove it later).
 
+
 - ### HTML & CSS:
 Last but not least, in our HTML we have to inject the JS.
 
@@ -79,6 +82,7 @@ Moving to CSS we have to give some style, I pesonally prefered to do it myself b
 ![Captura de pantalla 2024-11-09 234148](https://github.com/user-attachments/assets/26d78910-64c3-4513-afc8-437671a2eacc)
 >This is an example.
 >Don't forget the Header and Footer.
+
 
 ## *Voilá* All Done! 
 If Everything Went OK We Have To Get Something Like This:
