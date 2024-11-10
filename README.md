@@ -17,7 +17,6 @@
 <a href='' target="_blank"><img alt='javascript' src='https://img.shields.io/badge/javascript-100000?style=for-the-badge&logo=javascript&logoColor=F7DF1E&labelColor=000000&color=F7DF1E'/></a>
 <a href='https://github.com' target="_blank"><img alt='github' src='https://img.shields.io/badge/github-100000?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=181717&color=181717'/></a>
 
-<<<<<<< HEAD
 I used Visual studio code for this project
 
 ## Requirements I Have To Meet:
@@ -114,5 +113,3 @@ For further information, here is my contact: *rebecabernalmesa@gmail.com*
 
 
 
-=======
->>>>>>> 3dee8784cb94f2a78dfcb8485d746578f911ed05
