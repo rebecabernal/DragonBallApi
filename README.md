@@ -1,10 +1,4 @@
-
-<<<<<<< HEAD
 # *Dragon Ball Api*
-=======
-# *Project-Dragon Ball Api*
->>>>>>> 3dee8784cb94f2a78dfcb8485d746578f911ed05
-
 *This project purpose is to applay an Api succesfully.*
 
 ## Tools I Used:
